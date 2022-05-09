@@ -1,0 +1,64 @@
+{
+  "name": "arcomage",
+  "private": true,
+  "description": "An internal Actum project using modern front end technologies",
+  "version": "1.0.0",
+  "author": "ACTUM DU-Innogy",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.6",
+    "browser-monads": "^1.0.0",
+    "gatsby": "^2.13.25",
+    "gatsby-image": "^2.2.6",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-eslint": "^2.0.5",
+    "gatsby-plugin-manifest": "^2.2.3",
+    "gatsby-plugin-offline": "^2.2.4",
+    "gatsby-plugin-react-helmet": "^3.1.2",
+    "gatsby-plugin-sass": "^2.1.3",
+    "gatsby-plugin-sharp": "^2.2.7",
+    "gatsby-plugin-styled-components": "^3.1.14",
+    "gatsby-source-filesystem": "^2.1.5",
+    "gatsby-transformer-sharp": "^2.2.3",
+    "gsap": "3.5.1",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-gsap": "^1.2.0",
+    "react-helmet": "^5.2.1",
+    "react-redux": "^7.1.0",
+    "react-sound": "^1.2.0",
+    "react-spring": "^8.0.27",
+    "redux": "^4.0.4",
+    "styled-components": "^4.4.1",
+    "styled-map": "^3.3.0",
+    "styled-reboot": "^4.0.3",
+    "uifx": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/actum/arcomage"
+  },
+  "bugs": {
+    "url": "https://github.com/actum/arcomage/issues"
+  }
+}
